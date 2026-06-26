@@ -5,14 +5,6 @@
 * Node.js v18+ (tested on Node.js v20.x)
 * npm v9+
 
-Verify installation:
-
-```bash
-node -v
-npm -v
-```
-
----
 
 ## Clone the Repository
 
