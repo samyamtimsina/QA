@@ -1,0 +1,76 @@
+# Installation and Execution Steps
+
+## Prerequisites
+
+* Node.js v18+ (tested on Node.js v20.x)
+* npm v9+
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## Clone the Repository
+
+```bash
+git clone <repository-url>
+cd <project-folder>
+```
+
+---
+
+## Install Project Dependencies
+
+Install all dependencies from `package.json`:
+
+```bash
+npm install
+```
+
+This installs:
+
+* `@playwright/test`
+* `axios`
+* any other project dependencies
+
+---
+
+## Install Playwright Browsers
+
+```bash
+npx playwright install
+```
+
+---
+
+## Run the Test
+
+Run all tests:
+
+```bash
+npx playwright test
+```
+
+Run in headed mode:
+
+```bash
+npx playwright test --headed
+```
+
+Run only the signup test:
+
+```bash
+npx playwright test tests/signup.spec.js --headed
+```
+
+---
+
+## View the HTML Report
+
+```bash
+npx playwright show-report
+```
